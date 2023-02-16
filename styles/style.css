@@ -1,0 +1,104 @@
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: grey;
+  margin: 80px auto;
+  text-align: center;
+  padding: 30px;
+}
+header {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 25px 0 black;
+  display: flex;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.introduction {
+  align-content: center;
+  align-items: center;
+  display: inline-flex;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+h2 {
+  background-color: #d6b8f1;
+  border: 10px solid #d6b8f1;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px auto;
+}
+
+.headshot {
+  border-radius: 5px;
+  margin: 30px auto;
+  width: 350px;
+}
+
+h3 {
+  color: #000;
+  font-size: 17px;
+}
+
+.background div {
+  margin: 15px auto;
+}
+
+ul {
+  list-style: circle;
+  text-align: left;
+  margin: 15px auto;
+}
+
+a {
+  color: #d6b8f1;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  color: #ad67ea;
+  cursor: pointer;
+}
+
+a img {
+  max-width: 50px;
+}
+
+.project-1 img {
+  display: block;
+  max-width: 100%;
+}
+
+.project-2 img {
+  display: block;
+  max-width: 100%;
+}
+
+footer {
+  font-size: 15px;
+  margin: 30px auto;
+  width: fit-content;
+}
