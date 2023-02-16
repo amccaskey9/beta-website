@@ -87,6 +87,11 @@ a img {
   max-width: 50px;
 }
 
+.project {
+  margin: 15px;
+  font-size: 30px;
+}
+
 .project img {
   display: block;
   max-width: 100%;
